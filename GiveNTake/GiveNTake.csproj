@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20180215083613_InitialCreate.cs" />
+    <Compile Remove="Migrations\20180215083613_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20180215102056_InitialCreate.cs" />
+    <Compile Remove="Migrations\20180215102056_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20180217065608_Initial.cs" />
+    <Compile Remove="Migrations\20180217065608_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20180217094501_InitialMigration.cs" />
+    <Compile Remove="Migrations\20180217094501_InitialMigration.Designer.cs" />
+    <Compile Remove="Migrations\20180217102252_InitialMigration.cs" />
+    <Compile Remove="Migrations\20180217102252_InitialMigration.Designer.cs" />
+    <Compile Remove="Migrations\20180217135530_InitialMigration.cs" />
+    <Compile Remove="Migrations\20180217135530_InitialMigration.Designer.cs" />
+    <Compile Remove="Migrations\20180312072238_IdentityUser.cs" />
+    <Compile Remove="Migrations\20180312072238_IdentityUser.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="2.5.0" />
+  </ItemGroup>
+
+</Project>

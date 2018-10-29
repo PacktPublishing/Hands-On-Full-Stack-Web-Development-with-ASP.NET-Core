@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Everyday Market</title>
+        <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.min.css">
+        <link rel="stylesheet" type="text/css" href="styles/app.css">
+        <link rel="stylesheet" type="text/css" href="styles/menu.css">
+        <link rel="stylesheet" type="text/css" href="styles/card.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    </head>
+    <body>
+        <header class="app-header app-bg">
+            <div class="maxHeight flex flex-align-items--center">
+                <img src="images/logo.png" class="app-logo" />
+                <span class="app-slogan">Shop 'till you Drop</span>
+            </div>
+        </header>
+        <div class="app-main">
+            <div>
+                <ul id="menu">
+                    <!-- <li class="menu-selected" categoryName="books">Books</li>
+                    <li categoryName="appliances">Appliances</li>
+                    <li categoryName="food">Food</li> -->
+                </ul>
+            </div>
+            <div id="productsContainer" class="clear-fix">
+            </div>
+            <div class="clear-fix"></div>
+            <div id="wait" class="loader-container hidden">
+                <div class="loader"></div>
+            </div>
+        </div>
+        <script type="text/template" data-template="menu-item">
+            <li class="${className}" categoryName="${name}">${name}</li>
+        </script>
+        <script type="text/template" data-template="product-item">
+            <div class="item-card">
+                <div class="item-card-content-container">
+                    <img class="item-card-content-container-img" src="${primaryImage}" />
+                    <span class="item-card-content-container-title">${title}</span>
+                    <span class="item-card-content-container-text">${description}</span>
+                </div>
+            </div>
+        </script>
+        <script src="scripts/index.js"></script>
+        <script src="scripts/common.js"></script>
+        <script src="scripts/api.mock.js"></script>
+        <script src="scripts/products.js"></script>
+    </body>
+</html>

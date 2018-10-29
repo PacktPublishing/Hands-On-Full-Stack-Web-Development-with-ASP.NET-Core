@@ -1,0 +1,36 @@
+#menu {
+    border: 0;
+    padding-left: 10px;
+}
+
+.ui-menu:after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.ui-menu .ui-menu-item {
+    display: inline-block;
+    float: left;
+    width: auto;
+}
+
+.ui-menu {
+    margin: 0;
+    padding: 0;
+}
+
+.ui-menu-item {
+    border: 1px solid black;
+    padding: 2px 5px 2px 5px;
+}
+
+.ui-menu-item:hover {
+    background-color: lightgray;
+}
+
+.menu-selected {
+    background-color: bisque;
+}

@@ -1,0 +1,25 @@
+<form #productForm="ngForm">
+  <div>
+    <label for="title">Title</label>
+    <input id="title" name="title" [(ngModel)]="product.title" #title="ngModel" required minlength="3" maxlength="50" />
+    <span [class.hidden]="!title.errors?.required">Title is required</span>
+    <span [class.hidden]="!title.errors?.minlength">Title should be at least 3 characters long</span>
+    <span [class.hidden]="!title.errors?.maxlength">Title should be less than 50 characters long</span>
+  </div>
+  <div>
+    <label for="description">Description</label>
+    <textarea id="description" name="description" [(ngModel)]="product.description"></textarea>
+  </div>
+  <div>
+    <label for="category">Category</label>
+    <select id="category" name="category" [(ngModel)]="product.category" #category="ngModel" required>
+      <option value=''>Select category..</option>
+      <option *ngFor="let c of categories" [value]="c.name">{{ c.name }}</option>
+    </select>
+    <span [class.hidden]="category.valid">Category is required</span>
+  </div>
+  <div class="actions-panel">
+    <button (click)="onSubmit(true)" [disabled]="!productForm.form.valid">Save</button>
+    <button (click)="onSubmit(false)">Cancel</button>
+  </div>
+</form>

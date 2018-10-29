@@ -1,0 +1,48 @@
+<template>
+  <header class="app-header app-bg">
+    <div class="maxHeight flex flex-align-items--center">
+      <img src="../../assets/logo.png" class="app-logo" />
+      <span class="app-slogan">Shop 'till you Drop</span>
+    </div>
+  </header>
+</template>
+
+<script>
+export default {
+  name: 'Header',
+}
+</script>
+
+<style scoped>
+.app-header {
+  height: 200px;
+  border-bottom: 1px solid black;
+}
+
+.app-header::after {
+  content: "";
+  height: 200px;
+  opacity: 0.5;
+  background: url('../../assets/herobg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;   
+}
+
+.app-logo {
+  height: 80px;
+  margin-left: 50px;
+}
+
+.app-slogan {
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  font-weight: bold;
+  margin-left: 5px;
+}
+</style>

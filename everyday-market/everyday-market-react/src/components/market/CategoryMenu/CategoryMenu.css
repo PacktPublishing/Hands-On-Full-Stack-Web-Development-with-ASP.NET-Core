@@ -1,0 +1,6 @@
+#cat-menu, #cat-menu > li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline;
+}

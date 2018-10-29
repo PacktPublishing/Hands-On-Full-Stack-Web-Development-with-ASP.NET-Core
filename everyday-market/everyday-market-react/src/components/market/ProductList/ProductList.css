@@ -1,0 +1,12 @@
+#products-container, #products-container > li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline;
+}
+
+#products-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

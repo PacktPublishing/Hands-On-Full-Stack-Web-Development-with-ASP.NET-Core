@@ -1,0 +1,6 @@
+<div *ngIf="product">
+  <app-product-details [product]="product"></app-product-details>
+  <button routerLink="/products">Back</button>
+</div>
+
+<app-busy *ngIf="isBusy"></app-busy>

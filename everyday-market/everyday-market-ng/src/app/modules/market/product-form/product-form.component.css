@@ -1,0 +1,31 @@
+form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+form > div {
+  padding: 5px;
+}
+
+input, select, textarea {
+  width: 100%;
+}
+
+textarea {
+  height: 80px;
+}
+
+.actions-panel {
+  margin-top: 10px;
+  align-self: center;
+}
+
+.actions-panel > button:first-child {
+  margin: 5px;
+}
+
+.ng-invalid:not(form) {
+  border-left: 5px solid #a94442;
+}

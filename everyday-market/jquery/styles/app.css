@@ -1,0 +1,109 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;  /* =10px */
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-size: 1.4rem;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.app-header {
+    height: 100px;
+    border-bottom: 1px solid black;
+}
+
+.app-header::after {
+    content: "";
+    height: 100px;
+    opacity: 0.5;
+    background: url('../images/herobg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;   
+  }
+
+.app-logo {
+    height: 80px;
+    margin-left: 50px;
+}
+
+.app-slogan {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.app-main {
+    padding-top: 10px;
+    background-color: rgb(236,236,236);
+    height: calc(100% - 100px);
+    width: 100%;
+    position: relative;
+    top: 0; lefT:0;
+}
+
+.loader-container {
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+    background-color: azure;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+}
+
+.clear-fix {
+    clear: both;
+    float: none;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.maxHeight {
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-justify-content--center {
+    justify-content: center;
+}
+
+.flex-align-items--center {
+    align-items: center;
+}

@@ -1,0 +1,9 @@
+<div *ngIf="categories">
+  <app-product-form
+    [categories]="categories"
+    (productSubmit)="onProductSubmit($event)"
+    >
+  </app-product-form>
+</div>
+
+<app-busy *ngIf="isBusy"></app-busy>

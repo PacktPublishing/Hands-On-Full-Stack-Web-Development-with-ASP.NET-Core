@@ -1,0 +1,7 @@
+<div class="item-card">
+  <div class="item-card-content-container" [routerLink]="['/products', product.productId]">
+      <img class="item-card-content-container-img" [src]="primaryImageSrc" />
+      <span class="item-card-content-container-title">{{product.title}}</span>
+      <span class="item-card-content-container-text">{{product.description}}</span>
+  </div>
+</div>

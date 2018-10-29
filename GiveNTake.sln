@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GiveNTake", "GiveNTake\GiveNTake.csproj", "{022EFA95-1CA2-4935-BAB2-1DC635C1438A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{022EFA95-1CA2-4935-BAB2-1DC635C1438A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{022EFA95-1CA2-4935-BAB2-1DC635C1438A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{022EFA95-1CA2-4935-BAB2-1DC635C1438A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{022EFA95-1CA2-4935-BAB2-1DC635C1438A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {229E2A32-AD63-4857-BE65-5A5C487850CB}
+	EndGlobalSection
+EndGlobal
