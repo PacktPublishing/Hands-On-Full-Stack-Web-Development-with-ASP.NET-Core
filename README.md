@@ -1,16 +1,20 @@
 # Hands-On-Full-Stack-Web-Development-with-ASP.NET-Core
 
-<a href="https://www.packtpub.com/web-development/hands-full-stack-web-development-aspnet-core?utm_source=github&utm_medium=repository&utm_campaign="><img src="" alt="" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/web-development/hands-full-stack-web-development-aspnet-core?utm_source=github&utm_medium=repository&utm_campaign=9781788622882"><img src="https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B09048_MockupCover.png" alt="Hands-On Full-Stack Web Development with ASP.NET Core" height="256px" align="right"></a>
 
-This is the code repository for [](https://www.packtpub.com/web-development/hands-full-stack-web-development-aspnet-core?utm_source=github&utm_medium=repository&utm_campaign=), published by Packt.
+This is the code repository for [Hands-On Full-Stack Web Development with ASP.NET Core](https://www.packtpub.com/web-development/hands-full-stack-web-development-aspnet-core?utm_source=github&utm_medium=repository&utm_campaign=9781788622882), published by Packt.
 
 **Learn end-to-end web development with leading frontend frameworks, such as Angular, React, and Vue**
 
 ## What is this book about?
-0
+In this book, you’ll build a complete system with both back-end and front-end products, including ASP.NET Core, Entity Framework, TypeScript, Angular, React, Vue, and Azure. This book covers more than just implementation, as you gain additional knowledge in more relevant areas, including deployment, monitoring, and debugging.
 
 This book covers the following exciting features:
-
+* Build REST APIs in C# with ASP.NET Core, Web API and Entity Framework
+* History and future horizons of the Web development field
+* Bring static-typing to web apps using TypeScript.
+* Build web applications using Angular, React and Vue.
+* Deploying your application to the cloud
 
 If you feel this book is for you, get your [copy](https://www.amazon.com/dp/178862288X) today!
 
@@ -39,23 +43,15 @@ With the following software and hardware list you can run all code files present
 | 2-7 | Postman | Windows 7 and above, Macos 10.9 and above |
 | 8 | Code editor of your choice (e.g. Visual Studio Code, WebStorm, Eclipse, Sublime, IntelliJ IDEA, Atom,  Visual Studio, Notepad++, etc.) | Windows, Mac OS X, and Linux  |
 | 9-16 | Code editor of your choice, Node.js | Windows, Mac OS X, and Linux  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
 
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/LearnThreeDotjsThirdEdition_ColorImages.pdf).
+
+We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/9781788622882_ColorImages.pdf).
 
 ### Related products
 * Learning ASP.NET Core 2.0 [[Packt]](https://www.packtpub.com/application-development/learning-aspnet-core-20?utm_source=github&utm_medium=repository&utm_campaign=9781788476638 ) [[Amazon]](https://www.amazon.com/dp/1788476638)
 
-*  [[Packt]](https://www.packtpub.com/application-development/aspnet-core-2-and-angular-5?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1788293606)
+*  ASP.NET Core 2 and Angular 5 [[Packt]](https://www.packtpub.com/application-development/aspnet-core-2-and-angular-5?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1788293606)
 
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
-
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
 
 ## Get to Know the Author
 **AmirZuker**
@@ -69,22 +65,7 @@ is the chief architect of Clarizen, a leading SaaS company in work collaboration
 is the CTO and VP, R&D, of Jifiti. With 20 years' experience in the software development world, Shay spearheads and manages the many technologies that Jifiti utilizes on a daily basis. Prior to that, Shay co-founded Pickspace, a VC-backed start-up in the field of real-estate tech. As CTO, he led the company's development efforts and helped it become a world leader in co-working space-related technologies. Prior to Pickspace, Shay co-founded CodeValue, one of the leading tech consulting companies in Israel, where he managed the web division, consulted dozens of companies, conducted training courses, and more. 
 Shay is a renowned international speaker, loves playing basketball, and is endeavoring to improve his guitar playing.
 
-****
-0
 
-****
-0
-
-## Other books by the authors
-[]()
-
-[]()
-
-[]()
-
-[]()
-
-[]()
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
