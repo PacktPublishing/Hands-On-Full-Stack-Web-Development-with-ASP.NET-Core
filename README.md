@@ -1,4 +1,4 @@
-# Hands-On-Full-Stack-Web-Development-with-ASP.NET-Core
+# Hands-On Full-Stack Web Development with ASP.NET Core
 
 <a href="https://www.packtpub.com/web-development/hands-full-stack-web-development-aspnet-core?utm_source=github&utm_medium=repository&utm_campaign=9781788622882"><img src="https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B09048_MockupCover.png" alt="Hands-On Full-Stack Web Development with ASP.NET Core" height="256px" align="right"></a>
 
